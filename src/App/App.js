@@ -2,7 +2,7 @@ import React from 'react';
 import './App.scss';
 import dna from '../img/dna.png';
 
-import DNA from '../Components/DNA';
+import GenerateStrand from '../Components/GenerateStrand';
 
 function App() {
   return (
@@ -11,7 +11,7 @@ function App() {
         <h1>Complementary Base Generator</h1>
       </header>
       <main>
-        <DNA />
+        <GenerateStrand />
         <aside className="App-logo">
           <img src={dna} alt="rainbow DNA strand" className="App-logo__dna" />
           <img src={dna} alt="rainbow DNA strand" className="App-logo__dna" />
