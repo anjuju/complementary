@@ -8,7 +8,7 @@ function App() {
   return (
     <div className="App">
       <header>
-        <h1>Complementary Base Generator</h1>
+        <h1>Complementary Strand Generator</h1>
       </header>
       <main>
         <GenerateStrand />

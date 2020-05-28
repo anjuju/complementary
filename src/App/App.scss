@@ -1,6 +1,6 @@
-$main-bg-color: #fff9eb;
-$secondary-color: #fff0cc;
-$button-color: #cce6ff;
+$main-bg-color: #0f142c;
+$secondary-color: #c0c8be;
+$button-color: #ffe9ab;
 
 .App {
   text-align: center;
@@ -10,6 +10,7 @@ $button-color: #cce6ff;
   padding-top: 3vw;
 
   font-size: 1.5em;
+  color: white;
 }
 
 label {
@@ -28,6 +29,8 @@ textarea {
   font-size: inherit;
   border-radius: 10px;
   max-width: 50vw;
+
+  background-color: $secondary-color;
 }
 
 button {
@@ -44,6 +47,8 @@ select {
   border-radius: 10px;
   margin-right: 1vw;
   font-size: 1em;
+
+  background-color: $secondary-color;
 
   cursor: pointer;
 
